@@ -1,0 +1,35 @@
+{
+    "name": "mono-to-ts-core",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "run": "npm run build && node ./dist/src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IulianOctavianPreda"
+    },
+    "bin": {
+        "monoToTs": "./dist/src/index.js",
+        "monotots": "./dist/src/index.js"
+    },
+    "keywords": [
+        "mono",
+        "typescript",
+        "javascript",
+        "C#",
+        "webassembly",
+        "bindings"
+    ],
+    "author": "Iulian Preda",
+    "license": "MIT",
+    "type": "commonjs",
+    "devDependencies": {
+        "@types/node": "^13.7.1",
+        "typescript": "^3.7.5"
+    }
+}
